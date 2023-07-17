@@ -1,0 +1,37 @@
+.headingShark {
+    text-align: center;
+    color: rgb(163, 163, 212);
+}
+
+.animalCardShark {
+    border: 5px solid rgb(37, 37, 37);
+    border-radius: 2em;
+    margin: 10px;
+   // border-style: dashed solid;
+    text-align: left;
+    list-style-type: none;
+    background-color: rgb(78, 109, 170);
+    flex-direction: column;
+    flex: 0 0 250px;
+    padding: 10px;
+    width: 20em;
+
+
+    .animalNameShark {
+        font-size: 2em;
+        padding: 0.5em;
+        color: #033778;
+        color: #3e87fb;
+        text-align: center;
+    }
+
+    .animalCharactersShark {
+        list-style-type: none;
+        padding: 1em;
+        width: 100%;
+        color: #32C5FA;
+    }
+
+}
+
+

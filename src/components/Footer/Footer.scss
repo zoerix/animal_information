@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    background-color: rgba($color: #15e04b, $alpha: 0.2);
+    border: 5px solid rgb(8, 112, 8);
+}
