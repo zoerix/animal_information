@@ -1,5 +1,9 @@
 .header {
     margin-top: 10%;
     margin-bottom: 7%;
-    background-color: #589A8D;
+    //background-color: #589A8D;
+    & h2 {
+        padding: 5px;
+
+    }
 }

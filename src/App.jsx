@@ -11,7 +11,6 @@ import './App.scss'
 
 function App() {
 
-
   return (
     <div className='App'>
       <Header />
@@ -26,7 +25,6 @@ function App() {
         <BearData />
         <BearImg />
       </div>
-
       <Footer />
     </div>
   )
