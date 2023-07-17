@@ -1,5 +1,5 @@
 # spa-final-project_zoerix# spa
-Information about sharks, monkeys & bears! [check it out](spa-final-project-zoerix.vercel.app)
+Information about sharks, monkeys & bears! [check it out]([spa-final-project-zoerix.vercel.app](https://spa-final-project-zoerix.vercel.app/))
 
 learningProject for react created with vite:
 used useState/useEffect, 
