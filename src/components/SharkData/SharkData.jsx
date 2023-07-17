@@ -14,12 +14,10 @@ const SharkData = () => {
             handleAnimalClick(animal);
         }
     };
+    
     return (
-
         <div className="animalDataContainer">
-
             <div className="animalDataShark">
-
                 <ul>
                     {data.map((animal, index) => (
                         <li className="animalCardShark" key={index}>

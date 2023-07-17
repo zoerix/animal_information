@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import './MonkeyImg.scss'
 
 const MonkeyImg = () => {
     const [imgUrl, setImgUrl] = useState("https://www.placemonkeys.com/500");

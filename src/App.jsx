@@ -7,7 +7,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import { MonkeyData } from './components/MonkeyData/MonkeyData';
 import MonkeyImg from './components/MonkeyImg/MonkeyImg';
-import './App.scss'
+import './App.scss';
 
 function App() {
 
