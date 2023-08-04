@@ -12,6 +12,17 @@ const MonkeyData = () => {
             handleAnimalClick(animal);
         }
     };
+
+    const formatLocations = (locations) => {
+        return locations.join(", ");
+    };
+
+    // const formatColor = (color) => {
+    //     return color.join(",");
+    // };
+
+
+
     return (
 
         <div className="animalDataContainer">
@@ -26,16 +37,17 @@ const MonkeyData = () => {
                             >
                                 {animal.name}
                             </div>
-                          
+
                             {selectedAnimal === animal && (
                                 <ul className="animalCharactersMonkey">
-                                    <li>Name: {animal.taxonomy.scientific_name}</li>
-                                    <li>Location: {animal.locations} </li>
-                                    <li>Color: {animal.characteristics.color} </li>
-                                    <li>Diet: {animal.characteristics.diet} </li>
-                                    <li> {animal.characteristics.prey} </li>
-                                    <li> {animal.characteristics.temperament} </li>
-                                    <li>Description: {animal.characteristics.slogan} </li>
+                                    <li className=" animalCharName">{animal.taxonomy.scientific_name}</li>
+                                    <li className=" animalCharLocation">{formatLocations(animal.locations)} </li>
+                                    <li className=" animalCharColor">{
+                                        animal.characteristics.color} </li>
+                                    <li className=" animalCharDiet">{animal.characteristics.diet} </li>
+                                    <li className=" animalCharPrey">{animal.characteristics.prey} </li>
+                                    {/* <li className=" animalCharTemp">{animal.characteristics.temperament} </li> */}
+                                    <li className=" animalCharDesc">{animal.characteristics.slogan} </li>
                                 </ul>
                             )}
                         </li>

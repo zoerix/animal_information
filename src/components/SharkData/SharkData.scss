@@ -33,3 +33,77 @@
 }
 
 
+
+.headingShark {
+    text-align: center;
+    color: rgb(163, 163, 212);
+}
+
+.animalCardShark {
+    border: 5px solid rgb(15, 77, 192);
+    border-radius: 2em;
+    margin: 10px;
+    text-align: left;
+    list-style-type: none;
+    background-color: rgb(78, 109, 170);
+    padding: 10px;
+    width: 20em;
+
+    .animalNameShark {
+        font-size: 2em;
+        padding: 0.5em;
+        color: #033778;
+        text-align: center;
+    }
+
+    .animalCharactersShark {
+        list-style-type: none;
+        padding: 1em;
+        width: 100%;
+        color: #32C5FA;
+        text-align: left;
+        margin: 1px;
+
+        .animalCharName::before,
+        .animalCharLocation::before,
+        .animalCharColor::before,
+        .animalCharDiet::before,
+        .animalCharPrey::before,
+        .animalCharTemp::before,
+        .animalCharDesc::before {
+            padding-right: 15px;
+            color: #adc6ce;
+            display: block;
+            margin: 10px 0px 10px ;
+            width: 300px;
+        }
+    }
+
+    .animalCharName::before {
+        content: 'name';
+    }
+
+    .animalCharLocation::before {
+        content: 'location';
+    }
+
+    .animalCharColor::before {
+        content: 'color';
+    }
+
+    .animalCharDiet::before {
+        content: 'diet';
+    }
+
+    .animalCharPrey::before {
+        content: 'prey';
+    }
+
+    .animalCharTemp::before {
+        content: 'teperament';
+    }
+
+    .animalCharDesc::before {
+        content: 'description';
+    }
+}

@@ -53,3 +53,86 @@
         margin: 10px;
       }
 }
+
+
+
+// an Bear&& Shark anpassen
+// .headingMonkey {
+//     text-align: center;
+//     color: rgb(250, 143, 81);
+// }
+
+// .animalCardMonkey {
+//     border: 5px solid rgb(37, 37, 37);
+//     border-radius: 2em;
+//     margin: 10px;
+//     text-align: left;
+//     list-style-type: none;
+//     background-color: #9e823b;
+//     padding: 10px;
+//     width: 20em;
+
+//     .animalNameMonkey {
+//         font-size: 2em;
+//         padding: 0.5em;
+//         color: #c7bb54;
+//         text-align: center;
+//     }
+
+//     .animalCharactersMonkey {
+//         list-style-type: none;
+//         padding: 1em;
+//         width: 100%;
+//         color: #47443c;
+//         text-align: left;
+//         margin: 1px;
+
+//         .animalCharName::before,
+//         .animalCharLocation::before,
+//         .animalCharColor::before,
+//         .animalCharDiet::before,
+//         .animalCharPrey::before,
+//         .animalCharTemp::before,
+//         .animalCharDesc::before {
+//             padding-right: 15px;
+//             color: #8d520f;
+//             display: block;
+//             margin: 10px 0px 10px ;
+//             width: 300px;
+//         }
+//     }
+
+//     .animalCharName::before {
+//         content: 'name';
+//         color: #8d520f;
+//     }
+
+//     .animalCharLocation::before {
+//         content: 'location';
+//         color: #ebb476;
+//     }
+
+//     .animalCharColor::before {
+//         content: 'color';
+//         color: #8d520f;
+//     }
+
+//     .animalCharDiet::before {
+//         content: 'diet';
+//         color: #8d520f;
+//     }
+
+//     .animalCharPrey::before {
+//         content: 'prey';
+//         color: #8d520f;
+//     }
+
+//     .animalCharTemp::before {
+//         content: 'teperament';
+//         color: #8d520f;
+//     }
+
+//     .animalCharDesc::before {
+//         content: 'description';
+//     }
+// }
