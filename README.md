@@ -6,6 +6,6 @@ learningProject for react created with vite:
 used useState/useEffect, 
 created customHook, 
 used asnyc/await, 
-//made some of components
+//made some components
 
 its planed to add more animals
